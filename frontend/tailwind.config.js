@@ -1,0 +1,2 @@
+/** @type {import('tailwindcss').Config} */
+export default { content: [ "./index.html", "./src/**/*.{js,ts,jsx,tsx}", ], theme: { extend: { colors: { 'primary': '#6d28d9', 'primary-hover': '#5b21b6', 'secondary': '#1f2937', 'danger': '#dc2626', 'danger-hover': '#b91c1c', 'light-text': '#f3f4f6', 'dark-text': '#111827', 'muted-text': '#9ca3af', 'page-bg': '#111827', 'card-bg': '#1f2937', 'input-bg': '#374151', }, ringColor: { DEFAULT: '#a78bfa', }, borderColor: { DEFAULT: '#4b5563', } }, }, plugins: [], }
